@@ -4,8 +4,8 @@
     body {
         font-family: 'Noto Sans KR', sans-serif;
         background-color: cornsilk;
+        color: rgb(60, 60, 60);
         font-size: 14px;
-        color: gray;
     }
 }
 
@@ -13,8 +13,8 @@
     body {
         font-family: 'Noto Sans KR', sans-serif;
         background-color: cornsilk;
+        color: rgb(60, 60, 60);
         font-size: 13px;
-        color: gray;
     }
 }
 
@@ -22,26 +22,26 @@
     body {
         font-family: 'Noto Sans KR', sans-serif;
         background-color: cornsilk;
+        color: rgb(60, 60, 60);
         font-size: 11px;
-        color: gray;
     }
 }
 
-@media (min-width: 481px) and (max-width: 623px) {
+@media (min-width: 481px) and (max-width: 623px), (orientation: landscape) {
     body {
         font-family: 'Noto Sans KR', sans-serif;
         background-color: cornsilk;
+        color: rgb(60, 60, 60);
         font-size: 9px;
-        color: gray;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px), (orientation: landscape) {
     body {
         font-family: 'Noto Sans KR', sans-serif;
         background-color: cornsilk;
+        color: rgb(60, 60, 60);
         font-size: 8px;
-        color: gray;
     }
 }
 
@@ -81,12 +81,12 @@ a:link {
 }
 
 #nav-menu > li {
+    background: rgb(250, 240, 200);
     padding: 0.6em 1.6em 0.6em 1.6em;
     border: 0.1em solid darkgray;
     transition: all 0.5s;
-    background: rgb(250, 240, 200);
-    float: right;
     display: flex;
+    float: right;
 }
 
 #nav-menu > li > a {
@@ -300,7 +300,6 @@ a:link {
 #contents-icon {
     font-family: 'Montserrat', sans-serif;
     margin: 1em 1.6em;
-    color: darkgray;
     font-weight: 600;
     font-size: 1em;
 }
