@@ -18,7 +18,7 @@
     }
 }
 
-@media (min-width: 624px) and (max-width: 767px) {
+@media (min-width: 624px) and (max-width: 767px) and (orientation: landscape) {
     body {
         font-family: 'Noto Sans KR', sans-serif;
         background-color: cornsilk;
@@ -27,7 +27,7 @@
     }
 }
 
-@media (min-width: 481px) and (max-width: 623px) {
+@media (min-width: 481px) and (max-width: 623px) and (orientation: landscape) {
     body {
         font-family: 'Noto Sans KR', sans-serif;
         background-color: cornsilk;
@@ -36,7 +36,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) and (orientation: landscape) {
     body {
         font-family: 'Noto Sans KR', sans-serif;
         background-color: cornsilk;
