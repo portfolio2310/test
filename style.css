@@ -18,11 +18,20 @@
     }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 624px) and (max-width: 767px) {
     body {
         font-family: 'Noto Sans KR', sans-serif;
         background-color: cornsilk;
-        font-size: 10.2px;
+        font-size: 11px;
+        color: gray;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 623px) {
+    body {
+        font-family: 'Noto Sans KR', sans-serif;
+        background-color: cornsilk;
+        font-size: 9px;
         color: gray;
     }
 }
@@ -31,7 +40,7 @@
     body {
         font-family: 'Noto Sans KR', sans-serif;
         background-color: cornsilk;
-        font-size: 9.5px;
+        font-size: 8px;
         color: gray;
     }
 }
@@ -130,7 +139,7 @@ a:link {
 .intro > img {
     border-radius: 0.6em;
     margin-top: 3em;
-    height: auto;
+    height: 24em;
     width: 30em;
 }
 
@@ -168,7 +177,7 @@ a:link {
 
 #recent-large {
     border-radius: 0.6em;
-	height: auto;
+	height: 26em;
     width: 38em;
 }
 
@@ -187,7 +196,7 @@ a:link {
 #recent-small > li > a > img {
     border-radius: 0.6em;
     margin-top: 1em;
-    height: auto;
+    height: 7em;
     width: 10em;
 }
 
@@ -245,7 +254,7 @@ a:link {
 .info-profile > img {
     margin-right: 2em;
     border-radius: 0.4em;
-    height: auto;
+    height: 26em;
     width: 20em;
 }
 
@@ -290,14 +299,14 @@ a:link {
 
 #contents-icon {
     font-family: 'Montserrat', sans-serif;
+    margin: 1em 1.6em;
     color: darkgray;
     font-weight: 600;
-    margin: 1em 1.6em;
     font-size: 1em;
 }
 
 #contents-icon > img {
-    height: auto;
+    height: 5em;
     width: 5em;
 }
 
@@ -312,9 +321,9 @@ a:link {
 }
 
 .work-main > h2 {
+    text-shadow: 0.06em 0.06em 0.06em darkgray;
     box-shadow: 0.2em 0.2em 0.2em darkgrey;
     font-family: 'Montserrat', sans-serif;
-    text-shadow: 0.06em 0.06em 0.06em darkgray;
     border: 0.04em solid darkgray;
     padding: 0.6em 1em 0.6em 1em;
     border-radius: 0.2em;
@@ -339,7 +348,7 @@ a:link {
 .work-list > img {
     border-radius: 0.4em;
     margin-right: 2em;
-    height: auto;
+    height: 19em;
     width: 28em;
 }
 
@@ -357,9 +366,9 @@ a:link {
 }
 
 #work-os {
+    padding: 0.8em 0.8em 0.8em 0.8em;
     border: 0.04em solid darkgray;
     transition: all 0.5s;
-    padding: 0.8em 0.8em 0.8em 0.8em;
     border-radius: 1em;
     margin-top: 1em;
     width: 2.5em;
@@ -385,16 +394,16 @@ a:link {
     background: rgb(250, 240, 200);
     padding: 0.6em 1.6em 0.6em 1.6em;
     border: 0.1em solid darkgray;
+    transition: all 0.5s;
     border-radius: 0.4em;
     margin-top: 1.6em;
     font-weight: 600;
-    transition: all 0.5s;
 }
     
 #mail:hover {
+    border: 0.1em solid black;
     background: tan;
     color: black;
-    border: 0.1em solid black;
 }
 
 #copyright {
